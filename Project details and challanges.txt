@@ -1,0 +1,35 @@
+Project: Baiduri Bank(Banking domain)
+Client:Baiduri
+Environment: Java,SpringBoot,Hibernate,Oracle,Log4j
+Mobeix retail banking uses the latest version of mobeix platform and tagitcore artechtechure.both events and interceports  loose coupling and maximum extensibility.
+->This project domain is banking domain.
+->tis project aims to build up on mobile baning and internet banking based on brunei country.
+->used java,springboot,microservice for backend development.
+->mysql used for database for curd operation like insert,delete,update,remove.
+->developed code fixexs and enhancement for inclusion in future code releases and paches.deployed in application in JBoss and Tomcat server.
+Responsibilities:
+->Actively involved in gathering & analysis of requirements, and estimating timelines.
+->Finding the bug and fixing the issue.
+->Software engineer working on backend technology predominantly using Java, Spring Boot.
+->Collaborated with members of Software Development Team.
+
+-> Analyze, debug and fix production incidents within specified SLAs. 
+
+->Contributed to Deployments by testing, debugging and resolving issues for optimal results.
+
+->If any failures recover the End Of Day Process(EOD).
+->Analysis and resolving the tickets using Jira tool.
+->If any batch job failures need to recover manually.
+->Health check will have done and Maintenance work on different databases.
+->Documenting the cause, resolution of the issue.
+->Updating the Daily status, Weekly Status report to the senior management.
+
+Challanges:
+-> I worked on production support I worked on priorties based ticketing tool.
+-> Every day we are faced the challenges resolving issues based on priorities .
+->My project one ticket FT Schedular email notification -> why total fund transfer count doesnt match with status in Database. so we goto database run some queries and check the DB table where exactly count doesnt match, As per Log analysis we found the transactions proccessed based on that we prepare the query fix the issue.
+->one of the challenge New card not link via mobeix admin.we need to resolve this issue.There was no query is used for auto-sync card link. so In retail there is a card batch sync scheduler job what this do new card + renewal card or just renewal card go in to this card sync batch.we ran some query We was getting some list of cards while executing this query from Ascend DB. from this list of cards we are looping each card and add the card which are not presented in Tagit DB. By using Query we can able to get card details.
+->Some challange we faced in our project Transaction History report -Opening Balance mismatch doent match with flex BO.As per transaction summary report selected range Some date to user mentioned date. Date range for transaction history & BO report should be same then only opening balance will be matched.Opening balance and closed balance is differ based on date range.
+->whenever user accessing the application face the bugs,outages and slowness.
+->some challenges go to transaction log and identifying how much time it taking application doesnt support the transaction logs then we have check network calls for application logs maintained properly or not then identifying which part of the code causing the latency.
+ 
