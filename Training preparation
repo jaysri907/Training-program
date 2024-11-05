@@ -11,14 +11,12 @@ At least 5 use cases of your previous project:
 ->Failed start application 
 
 Technology used in your project
-
+->Ticketing tool: jira
+->core java ,java 8
 ->Microservices
 ->SpringBoot
 ->Hibernate
-
-Tech preparation topic wise
-
-->As per class notes preparation
-->spring MVC, how to create one web service 
-->Java oops concepts
-->joints
+->Agile methodology 
+DB: MySQL
+Server,JBoss,Tomcat server
+version control system- GIT
